@@ -34,3 +34,14 @@ In this lesson, we learn how to use Ansible to deploy an Azure VM. During this p
 Configure a VM with the Custom Script Extension (CSE):
 
 we use the VM Agent to install the Custom Script Extension. Then using CSE, we execute a simple script on the VM to create a file.
+
+Configure a VM with Powershell Desired State Configuration (DSC):
+
+Configure an Azure VM with WebDeploy and Powershell DSC:
+
+In this lesson, we continue with DSC and use it to configure a Windows web server with WebDeploy installed. This will enable the web server to have applications deployed to it from remote tools such as Visual Studio.
+
+Create and Deploy an ASP.NET Application to an Azure VM from Visual Studio:
+
+In this lesson, we create a web application with Visual Studio and deploy that app to the Azure VM. To accomplish this, we use the integrated deploy tools in Visual Studio.
+
