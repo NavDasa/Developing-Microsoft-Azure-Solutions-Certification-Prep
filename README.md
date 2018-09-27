@@ -26,3 +26,7 @@ In this lesson, we learn to create images of both Windows and Linux VMs, and the
 Deploy Workloads with Terraform:
 
 In this lesson, we learn how to use Terraform to deploy an Azure VM. During this process, we will use the Cloud Shell and examine two Terraform files: one to create a resource group, and one to create a VM including its virtual network infrastructure. During this process, we work with the init - plan - apply terraform pattern and create the resources.
+
+ Deploy Workloads with Ansible:
+ 
+In this lesson, we learn how to use Ansible to deploy an Azure VM. During this process, we will use the Cloud Shell and examine a simple Ansible playbook which creates a VM, and we'll also have Ansible create that VM. We also learn two Azure CLI commands to create a resource group and virtual network.
