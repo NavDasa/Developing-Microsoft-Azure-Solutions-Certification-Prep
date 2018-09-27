@@ -22,3 +22,7 @@ In this lesson, we use the Azure portal to create a Linux VM (Ubuntu). We also S
 Create and Use Images from Windows and Linux Virtual Machines:
 
 In this lesson, we learn to create images of both Windows and Linux VMs, and then how to launch new VMs from those images. These images preserve the state of the installed software and can be used to redeploy custom solutions without having to reconfigure the installed software.
+
+Deploy Workloads with Terraform:
+
+In this lesson, we learn how to use Terraform to deploy an Azure VM. During this process, we will use the Cloud Shell and examine two Terraform files: one to create a resource group, and one to create a VM including its virtual network infrastructure. During this process, we work with the init - plan - apply terraform pattern and create the resources.
