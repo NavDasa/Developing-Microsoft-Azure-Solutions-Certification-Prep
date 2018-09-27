@@ -1,0 +1,25 @@
+# Before you create and write the below playbook must fallow the bellow to commands
+#Command to create a resource group with location
+#az group create --name ansibleRG --location westus
+#Command to create a Vnet : 
+#az network vnet create --resource-group ansibleRG --name myVnet --address-prefix 10.0.0.0/16 --subnet-name mySubnet --subnet-prefix 10.0.1.0/24
+
+- name: Create Azure VM
+  hosts: localhost
+  connection: local
+  tasks:
+  - name: Create VM
+    azure_rm_virtualmachine:
+      resource_group: ansibleRG
+      name: myVM
+      vm_size: Standard_DS1_v2
+      admin_username: ab1b45da-486b-4fd3-af17-0823ecba
+      ssh_password_enabled: false
+      ssh_public_keys:
+        - path: /home/ab1b45da-486b-4fd3-af17-0823ecba/.ssh/authorized_keys
+          key_data: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC7/YmDiw/9+dlFhwoedNQYaPvAKyUbvpnvjgR4REFvhmWRqJvkrkw/JcCqCMMT2TZphzI2+93hxUQAwgWTYx/foQEFnK4MB6QgCqdhsP3m6yrRX87d1V9NegAp9DJdETNDbJlF5D3dRfxK926ZalFPMwZRsfSMi9lgnxvdRe+H/uI1mjJZJHC8h27LBm245RJ73VwbWuQF8vIwTwMpcMZ7ZuTf3QpmdRlMnWp/qC4d6E24vRUH8xb2vfhOcywrCIB4Sc6pK5JsBROqePU5nfohV9Qlu/oosx0OvbDwJ7nR/e0iXdUkfqHTZE3HPNVp2YmYNWMGX4YHhQp8RRnZNUkl ab1b45da-486b-4fd3-af17-0823ecba@cc-8d125c0a-786ccdfcff-l6c5n"
+      image:
+        offer: CentOS
+        publisher: OpenLogic
+        sku: '7.5'
+        version: latest
