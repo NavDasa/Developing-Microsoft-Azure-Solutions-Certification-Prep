@@ -45,3 +45,11 @@ Create and Deploy an ASP.NET Application to an Azure VM from Visual Studio:
 
 In this lesson, we create a web application with Visual Studio and deploy that app to the Azure VM. To accomplish this, we use the integrated deploy tools in Visual Studio.
 
+Remote Debug a Web App on an Azure VM:
+ 
+ In this lesson, we use Visual Studio to configure remote debugging on an Azure VM. Once configured, we examine the configuration changes made, connect to the IIS process, and remotely debug the application.
+ 
+ #VMSS
+ 
+ Scale-up a VM:
+
