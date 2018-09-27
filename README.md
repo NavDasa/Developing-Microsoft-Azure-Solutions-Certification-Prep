@@ -52,3 +52,53 @@ Remote Debug a Web App on an Azure VM:
 # VMSS
 Scale-up a VM:
 
+In this lesson, we examine how to scale up an Azure virtual machine. This process is referred to as vertical scaling, and we use the portal to scale up a VM.
+
+Scale-up of a virtual mechine means increasing the CPU and RAM of the Particular VM.
+
+Just go to the Disk and change choose the upper one and resize, at that time there will be a down time of server.
+
+Note: There is No feature in Azure to automatically Scale down and scale up. We should analyze some metrics, and write automation scripts for that metrics. 
+
+# Create a VM Scale Set (VMSS):
+
+In this lesson, we create a virtual machine scale set (VMSS). A VMSS is Azure’s integrated service for managing scale-out, also known as horizontal scaling.
+
+Configure VMSS Scale-out:
+
+In this lesson, we configure a VMSS to scale-out when the aggregate utilization of its virtual machines CPU's exceeds 70%.
+
+Note: The public IP will be allocated to load balancer of the instance.
+
+Force a VMSS Scale-out:
+
+In this lesson, we force the scale-out of our VMSS by running a script on one of the web servers that maximized the CPU.
+
+Note: In VMSS you need to connect to by the DNS name by giving port number example myvmss.westus.cloudapp.azure.com:50000 and also Enter Username and password to connect to the VMSS. In this leasson, as we set up the autoscalling, but we don't know how it works, so in order to know we are login to the mechine and increasing the load and then it will automatically scale - out the new instance. 
+
+For CPU Stress on VMSS:
+Run the below commands to make sure the utilization is more:
+
+Invoke-WebRequest -Uri https://raw.githubusercontent.com/linuxacademy/content-azure-70532/master/scripts/CpuStress.psm1 -OutFile CpuStress.psm1
+
+Import-Module .\CpuStress.psm1
+
+New-CpuStress 4
+
+Note: In newer version of azure there is an ability to assign an public - ip address for a VMSS. we can remote into those directly instead of dooing dns. But it is not by default we can also configure it through power shell or ARM Templetes.
+
+Force a VMSS Scale-in: 
+
+We need to set up a new rule of scale-in, We have a problem that even when the cpu is down then the 70% there will be the same rule and VMSS instances will be two only, So that is the problem So, we need to write a Scale-In Rule, So in this leasson they will close the work load and off the Job then the automatically scale-in rule will drops down to 1 VM from 2.
+
+Command: Get-CpuStress | Stop-CpuStress
+
+Implement Accelerated Networking:
+
+Accelerated Networking means simply noting but 
+With Accelerated Networking: Virtual Switch + Network card.
+Without Accelerated Networing: Network card.
+
+In this lesson, we examine Accelerated Networking and how to configure your Azure VMs to utilize this service which can get you up to 30Gbps throughput between servers on your Azure VNet's.
+
+
