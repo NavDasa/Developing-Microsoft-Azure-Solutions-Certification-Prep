@@ -30,3 +30,7 @@ In this lesson, we learn how to use Terraform to deploy an Azure VM. During this
  Deploy Workloads with Ansible:
  
 In this lesson, we learn how to use Ansible to deploy an Azure VM. During this process, we will use the Cloud Shell and examine a simple Ansible playbook which creates a VM, and we'll also have Ansible create that VM. We also learn two Azure CLI commands to create a resource group and virtual network.
+
+Configure a VM with the Custom Script Extension (CSE):
+
+we use the VM Agent to install the Custom Script Extension. Then using CSE, we execute a simple script on the VM to create a file.
