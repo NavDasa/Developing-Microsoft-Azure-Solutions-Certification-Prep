@@ -1,16 +1,4 @@
-variable "resourcename" {
-  default = "myResourceGroup"
-}
-
-# Configure the Microsoft Azure Provider
-provider "azurerm" {
-    subscription_id = ""
-    client_id       = ""
-    client_secret   = ""
-    tenant_id       = ""
-}
-
-
+#If you are in the cloud shell the client ID, Secerat ID, Tenent ID, Scubcription ID.
 #Create a resource group
 resource "azurerm_resource_group" "myterraformgroup" {
     name     = "myResourceGroup"
