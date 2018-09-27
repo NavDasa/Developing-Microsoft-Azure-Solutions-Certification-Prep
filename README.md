@@ -49,7 +49,6 @@ Remote Debug a Web App on an Azure VM:
  
  In this lesson, we use Visual Studio to configure remote debugging on an Azure VM. Once configured, we examine the configuration changes made, connect to the IIS process, and remotely debug the application.
  
- #VMSS
- 
- Scale-up a VM:
+# VMSS
+Scale-up a VM:
 
