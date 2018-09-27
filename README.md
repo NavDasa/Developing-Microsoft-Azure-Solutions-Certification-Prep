@@ -101,4 +101,47 @@ Without Accelerated Networing: Network card.
 
 In this lesson, we examine Accelerated Networking and how to configure your Azure VMs to utilize this service which can get you up to 30Gbps throughput between servers on your Azure VNet's.
 
+Configure Disk Caching and Add/Remove Data Disks:
+
+In this lesson, we examine disk caching and also how to attach and detach data disks from a VM.
+
+Note: Even if you delate the VM, the data disk won't be delated and will be longer life.
+
+Plan Storage Capacity:
+
+In this lesson, we cover the limitations of disks on VMs and discuss the means of planning disk size and performance for a VM.
+
+Configuring Shared Files with Azure Files:
+
+In this lesson, we learn about Azure Files, a managed service for sharing files using the SMB protocol. During the lesson, we create an Azure File Share which will later be mounted to both a Windows and Linux VM(s).
+
+Mount an Azure File Share on a Windows and Linux VM:
+
+In this lesson, we mount the file share created in the previous lesson to a Windows and a Linux VM. We then create content (files) which can be seen from both systems.
+
+Understand Azure Storage Account Replication:
+
+In this lesson, we discuss the types of data replication available in Azure: LRS, ZRS, GRS and RA-GRS.
+
+Contrast Standard/Premium Storage and Managed/Unmanaged Disks:
+
+In this lesson, we discuss the differences between standard and premium storage, as well as between managed(can be used in SSD, disk in IOPS, scalability, storage accounts, control of overaall performance, snapshot at solid state, saving money, GRS replicated,) and unmanaged disks( how much you used you can pay that much, transaction charge, high performace).
+
+Understand VM Disk Encryption:
+
+In this lesson, we quickly go over the concepts you need to know relative to performing disk encryption that may be on the exam.
+
+Windows uses Bit locaker, and linux uses DM-Crpt. keys used in key vault.
+
+Implement StorSimple:
+
+In this lesson, we quickly examine StorSimple and what it has to offer in the areas of storage consolidation.
+
+Storage Infrasturance, for on-premises storage, backups, disaster recovery, backup copies, pysical, and virtual servers connected. Schecudeled, backups.
+
+Implement Azure File Sync:
+
+In this lesson, we quickly go over Azure File Sync and what it has to offer in terms of replicating files into Azure File Storage.
+
+On-premises sync upto the Azure, Files locally can be synced into azure. Multi-Master sync storage. Don't work on Azure files in between regions.
 
