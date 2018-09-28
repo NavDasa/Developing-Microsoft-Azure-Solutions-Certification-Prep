@@ -291,5 +291,7 @@ Create a Mobile Client Using the Microsoft Mobile SDK for Xamarin.iOS:
 
 we create an iOS application using Xamarin that will utilize our Mobile App Service.
 
+Add Offline Sync to the Mobile Client:
 
+we add offline caching capabilities to the mobile client.
  
