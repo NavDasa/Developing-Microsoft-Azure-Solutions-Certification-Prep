@@ -145,4 +145,28 @@ In this lesson, we quickly go over Azure File Sync and what it has to offer in t
 
 On-premises sync upto the Azure, Files locally can be synced into azure. Multi-Master sync storage. Don't work on Azure files in between regions.
 
+# Funtions
+Create an App Service Plan to Host a Web App:
+
+In this lesson, we create an app service plan and review the different type of app service plan offerings.
+
+Create a Web App Using the Portal:
+
+n this lesson, we create a Web App within our App Service Plan. This Web App is an environment within the App Service Plan which runs a raw web application such as an ASP.NET MVC application. This environment provides features such as (amongst many more):
+
+Deployment slots
+Continuous integration
+Load balancing
+Automatic scaling.
+
+Use Visual Studio to Create and Deploy an ASP.NET Application to a Web App:
+
+In this lesson, we create an ASP.NET MVC application with Visual Studio and deploy it to our Azure Web App.
+
+Add Tracing and Monitor Performance:
+
+In this lesson, we add Application Insights and tracing capabilities to our web application.
+
+
+
 
