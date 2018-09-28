@@ -247,3 +247,26 @@ OutBound Processing: Convert the out XML into JSON.
 Configure Rate Limits:
 
 In this lesson, we learn about using policies on our API to control the rate of calling of the API as well as how much data can be moved through the API.  You can see the video at this point of time to get the police, how its working. we can also set in millions and the number of requests.
+
+Configure Caching:
+
+In this lesson, we configure policies to check requests for matches in an output data cache, and also to associate result data with a request and place that data within the cache. (Inbond paramenter: Get from cache, Out bound parameter: Store to cache)
+
+Inbound: <cache-lookup vary-by-developer="false" vary-by-developer-groups="false">
+            <vary-by-query-parameter>a,b</vary-by-query-parameter>
+         </cache-lookup>
+outbound: <cache-store duration="3600" />
+
+Manage API Versions:
+
+we examine versioning and running multiple versions of our API.
+
+Customize Publisher and Developer Portals:
+
+In this lesson, we examine the publisher and developer portals. We take a quick spin around the publisher portal and then cover how you can change styles and upload custom content in the developer portal.
+
+Integrate with Git:
+
+we learn to utilize Git to version control our APIs.
+ 
+ 
