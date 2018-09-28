@@ -225,3 +225,6 @@ Deploy an API App from Visual Studio:
 
 we deploy our Web API from Visual Studio to our Azure App Service.
 
+Implement API Management:
+
+we create an API Management Service.
