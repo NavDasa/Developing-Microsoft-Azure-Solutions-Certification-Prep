@@ -225,6 +225,18 @@ Deploy an API App from Visual Studio:
 
 we deploy our Web API from Visual Studio to our Azure App Service.
 
-Implement API Management:
+# Implement API Management:
 
 we create an API Management Service.
+
+Create a Product with an API:
+
+In this lesson, we create an API management product. We then create a managed API which fronts an external web service on the Internet. Finally, we associate the API with the product and expose it to developers.
+
+Enable Developer Access: (Also add a new user and give access to the API):
+
+we enable access to our API to developers.
+
+Create Policies to Modify Input and Output: 
+
+we create API Management policies to control access to our API and also modify the format of output data.
