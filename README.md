@@ -315,3 +315,6 @@ Create an Azure Service Fabric App:
 
 In this lesson, we examine a sample Service Fabric stateless service application. We review the coding patterns that are utilized and required for the exam.
  
+Deploy a Service Fabric Application from Visual Studio:
+
+In this lesson, we deploy our service fabric application from visual studio to our service fabric cluster. We then examine its deployment and give it a run in Azure.
