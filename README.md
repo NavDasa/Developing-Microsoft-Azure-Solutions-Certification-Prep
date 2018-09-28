@@ -145,3 +145,4 @@ In this lesson, we quickly go over Azure File Sync and what it has to offer in t
 
 On-premises sync upto the Azure, Files locally can be synced into azure. Multi-Master sync storage. Don't work on Azure files in between regions.
 
+
