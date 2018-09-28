@@ -268,5 +268,18 @@ In this lesson, we examine the publisher and developer portals. We take a quick 
 Integrate with Git:
 
 we learn to utilize Git to version control our APIs.
+
+# Develop Azure App Service Logic Apps
+
+Managed services in azure,In side of app service environment, 300 different data types events.
+
+Create a Logic App Service with the Portal:
+
+we create a Logic App to host one or more workflows.
+
+Implement a Logic App That Responds to Storage Queue Messages:
+
+we create a Logic App workflow that is triggered by the arrival of messages in a storage account queue.
+
  
  
