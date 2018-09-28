@@ -281,5 +281,15 @@ Implement a Logic App That Responds to Storage Queue Messages:
 
 we create a Logic App workflow that is triggered by the arrival of messages in a storage account queue.
 
- 
+# Mobile APPS:
+
+Create a Mobile App Service with the Portal:
+
+we create a Mobile App Service in Azure. This App Service will form the underpinnings of our mobile application, its data storage, and authorization schemes.
+
+Create a Mobile Client Using the Microsoft Mobile SDK for Xamarin.iOS:
+
+we create an iOS application using Xamarin that will utilize our Mobile App Service.
+
+
  
