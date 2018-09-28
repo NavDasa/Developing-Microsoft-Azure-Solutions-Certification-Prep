@@ -240,3 +240,10 @@ we enable access to our API to developers.
 Create Policies to Modify Input and Output: 
 
 we create API Management policies to control access to our API and also modify the format of output data.
+
+Inboud Processing: Allow (we getError)and Forbid (We won't get Error)
+OutBound Processing: Convert the out XML into JSON.
+
+Configure Rate Limits:
+
+In this lesson, we learn about using policies on our API to control the rate of calling of the API as well as how much data can be moved through the API.  You can see the video at this point of time to get the police, how its working. we can also set in millions and the number of requests.
