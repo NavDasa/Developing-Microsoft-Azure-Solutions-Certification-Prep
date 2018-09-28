@@ -211,5 +211,17 @@ Create Understand WebJobs:
 
 In this lesson, we implement a WebJob project that responds to Storage Account queue messages and also to blob creation events.
 
+Design Azure App Service API Apps:
 
+Create an API App Service Plan:
+
+we create an App Service Plan to host a Web API application.
+
+Create and Deploy an API App That Uses Swagger and Swashbuckle: (OpenAPI):
+
+In this lesson, we create an ASP.NET Web API application in Visual Studio and examine how to use Swagger/Swashbuckle to expose and document the API.
+
+Deploy an API App from Visual Studio:
+
+we deploy our Web API from Visual Studio to our Azure App Service.
 
