@@ -294,4 +294,24 @@ we create an iOS application using Xamarin that will utilize our Mobile App Serv
 Add Offline Sync to the Mobile Client:
 
 we add offline caching capabilities to the mobile client.
+
+Add Google Authentication to the Mobile App Service: We can see how we can get Client ID and Client seceret.
+
+we configure the backend app service to support Google authentication.
+
+Add Google Authentication to the Xamarin.iOS mobile client:
+
+Add Google Authentication to the Xamarin.iOS mobile client.
+
+# Service fabric:
+
+Clustering technology, Standerd WCF Applications, Openshift, Cloud foundry, Automatic scaling, manage clusters, availabity sets, fault and update domains, Microservices, Automatic data persistent, Version control, automatic upgrages. 
+
+Creating a Service Fabric Cluster with the Portal:
+
+In this lesson, we create a service fabric cluster using the portal and examine several of its important characteristics.
+
+Create an Azure Service Fabric App:
+
+In this lesson, we examine a sample Service Fabric stateless service application. We review the coding patterns that are utilized and required for the exam.
  
