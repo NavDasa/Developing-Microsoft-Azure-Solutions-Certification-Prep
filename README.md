@@ -203,5 +203,13 @@ Understand and Use Function Proxies:
 
 In this lesson, we learn to create Azure Function Proxies.
 
+Integrate Functions with Event Grid:
+
+In this lesson, we examine Event Grid and how it can be used to route events to Azure Functions.
+
+Create Understand WebJobs:
+
+In this lesson, we implement a WebJob project that responds to Storage Account queue messages and also to blob creation events.
+
 
 
