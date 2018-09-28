@@ -167,6 +167,41 @@ Add Tracing and Monitor Performance:
 
 In this lesson, we add Application Insights and tracing capabilities to our web application.
 
+Create a Function App:
+
+In this lesson, we create a functions app which provides an execution environment for one or more functions. We also examine several of the properties of a function app.
+
+Create a Function Triggered by a Timer:
+
+In this lesson, we create an Azure Function that runs on a regular basis by using a timer trigger.
+
+Manage and Monitor a Function:
+
+In this lesson, we examine how an Azure Function can be monitored from within the portal.
+
+Delete a Function:
+
+In this lesson, we delete an Azure Function.
+
+Create a Function Triggered by a WebHook:
+
+In this lesson, we create an Azure Function that is executed by a WebHook.
+
+Create a Function Triggered by a blob event:
+
+In this lesson, we create a function that is triggered when a new blob is created.
+
+Integrate a Function with a Storage Queue:
+
+In this lesson, we create an Azure Function that is executed every time a message is placed within a storage account queue.
+
+Create and Deploy a Function App with Visual Studio:
+
+In this lesson, we develop functions from within Visual Studio. We then deploy a function app from Visual Studio to Azure. Finally, we run and debug azure functions on our local development system.
+
+Understand and Use Function Proxies:
+
+In this lesson, we learn to create Azure Function Proxies.
 
 
 
