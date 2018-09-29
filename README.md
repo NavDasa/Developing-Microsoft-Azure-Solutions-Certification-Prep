@@ -362,4 +362,6 @@ we examine the fundamentals of creating a Kubernetes application in ACS. We will
  
  # Design and implement DevOps
  
+Create a Web App with Multiple Slots to Use as the Target of a CI/CD Pipeline:
  
+In this lesson, we create a Web App with multiple deployment slots. Up to this point, we have not used deployment slots in our web apps. This use of deployment slots will ultimately allow us to continuously deploy to a staging slot and then swap the production slot when the staging slot is considered production ready.
