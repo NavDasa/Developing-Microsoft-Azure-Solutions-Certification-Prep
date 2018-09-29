@@ -328,3 +328,7 @@ In this lesson, we cover how third-parties can offer services in the Azure Marke
 Provision Applications Using Azure Quick-Start Templates:
 
 we take a look at the Azure quick-start templates available on Github and where you can find information on contributing.
+
+Create Managed Azure Applications:
+
+we learn about Azure Managed Applications and create/deploy a sample managed application.
