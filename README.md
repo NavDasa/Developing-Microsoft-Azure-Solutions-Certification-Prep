@@ -359,3 +359,7 @@ we examine the fundamentals of creating a Kubernetes application in ACS. We will
  Implement OpenShift:
  
  we examine RedHat OpenShift, RedHat’s container orchestration offering bases on Kubernetes. we can deploy openshift-orgin into azure without any licence, there is a github for openshift-orgin & templete for that.
+ 
+ # Design and implement DevOps
+ 
+ 
