@@ -318,3 +318,13 @@ In this lesson, we examine a sample Service Fabric stateless service application
 Deploy a Service Fabric Application from Visual Studio:
 
 In this lesson, we deploy our service fabric application from visual studio to our service fabric cluster. We then examine its deployment and give it a run in Azure.
+
+# Design and implement third-party Platform-as-a-Service (PaaS):
+
+Leverage Azure Marketplace Solutions and Services:
+
+In this lesson, we cover how third-parties can offer services in the Azure Marketplace, including the various pricing models available. We close with pointing you to where you can find how to make your own offerings.
+
+Provision Applications Using Azure Quick-Start Templates:
+
+we take a look at the Azure quick-start templates available on Github and where you can find information on contributing.
