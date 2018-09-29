@@ -337,6 +337,25 @@ Implement Docker Swarm Applications:
 
 we create a docker swarm application using Azure Container Service (ACS). In this lesson it also describes that how to create a docker swarm cluster within the az - cli, and how to connect to the master (cluster) and deploy a docker stack voting app in the cluster. 
 
+    az group create --name swarmRG --location wetus
+    az acs create --name swarmcluster --orchestrator-type Swarm --resource-group swarmRG --generate-ssh-keys
+
 Implement Kubernetes Applications:
 
- we examine the fundamentals of creating a Kubernetes application in ACS. We will have much more detail in a subsequent section of the course, where we work with Azure Kubernetes Service (AKS).
+we examine the fundamentals of creating a Kubernetes application in ACS. We will have much more detail in a subsequent section of the course, where we work with Azure Kubernetes Service (AKS).
+ 
+    az group create --name k8sRG --location westus
+
+    az acs create --name k8sCluster --orchestrator-type kubernetes --resource-group k8sRG --generate-ssh-keys
+
+    az acs kubernetes get-credentials --resource-group k8sRG --name k8sCluster
+
+    kubectl get nodes
+
+ Implement Pivotal Cloud Foundry (PCF):
+ 
+ we examine Pivotal Cloud Foundry (PCF), a very common and powerful PaaS offering.
+ 
+ Implement OpenShift:
+ 
+ we examine RedHat OpenShift, RedHat’s container orchestration offering bases on Kubernetes. we can deploy openshift-orgin into azure without any licence, there is a github for openshift-orgin & templete for that.
