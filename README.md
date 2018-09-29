@@ -336,3 +336,7 @@ we learn about Azure Managed Applications and create/deploy a sample managed app
 Implement Docker Swarm Applications:
 
 we create a docker swarm application using Azure Container Service (ACS). In this lesson it also describes that how to create a docker swarm cluster within the az - cli, and how to connect to the master (cluster) and deploy a docker stack voting app in the cluster. 
+
+Implement Kubernetes Applications:
+
+ we examine the fundamentals of creating a Kubernetes application in ACS. We will have much more detail in a subsequent section of the course, where we work with Azure Kubernetes Service (AKS).
