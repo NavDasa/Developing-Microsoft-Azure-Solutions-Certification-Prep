@@ -443,4 +443,8 @@ az acr show --name rgaks --resource-group rgaks
 
     kubectl get nodes
     
- 
+Create and Deploy a Kubernetes Application to AKS:
+
+we briefly examine the configuration of an AKS application in YAML, then deploy that application to our AKS cluster, and finally run it with kubectl.
+
+
