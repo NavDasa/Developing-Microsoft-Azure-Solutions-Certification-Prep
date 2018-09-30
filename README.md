@@ -394,4 +394,8 @@ Implement Mobile DevOps with HockeyApp:
 
 we review HockeyApp and how it can facilitate mobile DevOps.
 
+# Design and Implement Kubernetes Applications on Azure Container Service (AKS)
 
+Create Container Images:
+
+In this lesson, we create several docker container images that we will eventually deploy into AKS. These containers will be the Azure Voting app as designed for Kubernetes. We will also run these locally to ensure they function properly.
