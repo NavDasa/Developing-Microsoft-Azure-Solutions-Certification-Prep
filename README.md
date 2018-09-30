@@ -399,3 +399,9 @@ we review HockeyApp and how it can facilitate mobile DevOps.
 Create Container Images:
 
 In this lesson, we create several docker container images that we will eventually deploy into AKS. These containers will be the Azure Voting app as designed for Kubernetes. We will also run these locally to ensure they function properly.
+
+Manage Container Images Using Azure Container Registry (ACR):
+
+we create an Azure Container Registry and upload our docker containers to the registry and store it within a repository.
+
+
