@@ -413,3 +413,34 @@ The below will be helpful to push the docker images from the local linux mechine
     az acr login --name la70532acr
     docker push la70532acr.azurecr.io/azure-vote-front
     az acr repository list --name la70532acr
+
+Create an Azure Kubernetes Service:
+
+we create an Azure Kubernetes Service to run a containerized application. Below are command to install kubernetes service through Azure - CLI.
+
+az acr show --name rgaks --resource-group rgaks
+
+{
+  "appId": "17e96d45-dff5-449b-b3ac-70364678f",
+  "displayName": "azure-cli-2018-09-30-06-27-08",
+  "name": "http://azure-cli-2018-09-30-06-27-08",
+  "password": "e6357606-74b8-4564-9c87-85db",
+  "tenant": "308be630-3ef5-41e7-bde3-5ef99129c10a"
+}
+
+    az acr show --name rgaks --resource-group rgaks --query "id"
+
+    "/subscriptions/823432b0-785f-4b8c-9e5f-b237d0893/resourceGroups/rgaks/providers/Microsoft.ContainerRegistry/registries/rgaks"
+
+    az role assignment create --assignee 17e96d45-dff5-449b-b3ac-70364678f --role Reader --scope /subscriptions/823432b0-785f-4b8c-9e5f-b237d0893/resourceGroups/rgaks/providers/Microsoft.ContainerRegistry/registries/rgaks
+
+
+    az aks create --name myaksCluster --resource-group rgaks --node-count 1 --generate-ssh-keys --service-principal 17e96d45-dff5-449b-b3ac-70364678f --client-secret e6357606-74b8-4564-9c87-85db
+
+    az aks install-cli
+
+    az aks get-credentials --name myAKSCluster --resource-group rgaks
+
+    kubectl get nodes
+    
+ 
