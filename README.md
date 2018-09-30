@@ -365,3 +365,33 @@ we examine the fundamentals of creating a Kubernetes application in ACS. We will
 Create a Web App with Multiple Slots to Use as the Target of a CI/CD Pipeline:
  
 In this lesson, we create a Web App with multiple deployment slots. Up to this point, we have not used deployment slots in our web apps. This use of deployment slots will ultimately allow us to continuously deploy to a staging slot and then swap the production slot when the staging slot is considered production ready.
+
+Implement CI/CD via Github integration:
+
+we configure the Web App to utilize CI/CD with Github, and we deploy directly from Visual Studio.
+
+Use Deployment Slots to Swap Production and Staging Environments:
+
+we utilize deployment slots to swap production and staging environments and examine how we can utilize and swap both slots.
+
+Create a VSTS Project and Check in Code:
+
+we create a project in VSTS to host application code and build/release definitions.
+
+Implement Continuous Integration (CI) Using VSTS:
+ 
+we configure a VSTS build step to perform continuous integration when code is checked in to VSTS.
+
+Implement Continuous Delivery (CD) Using VSTS:
+
+we create a VSTS release to deploy a new build to Azure using continuous deployment.
+
+Instrument and Analyze Web App Performance Using Application Insights:
+
+we instrument our web application with Application Insights. During this process, we will examine how we can see the performance of individual page requests on our application.
+
+Implement Mobile DevOps with HockeyApp:
+
+we review HockeyApp and how it can facilitate mobile DevOps.
+
+
