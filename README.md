@@ -402,6 +402,6 @@ In this lesson, we create several docker container images that we will eventuall
 
 Manage Container Images Using Azure Container Registry (ACR):
 
-we create an Azure Container Registry and upload our docker containers to the registry and store it within a repository.
+we create an Azure Container Registry and upload our docker containers to the registry and store it within a repository, with the azure-cli.
 
 
