@@ -447,4 +447,23 @@ Create and Deploy a Kubernetes Application to AKS:
 
 we briefly examine the configuration of an AKS application in YAML, then deploy that application to our AKS cluster, and finally run it with kubectl.
 
+Scale an AKS Cluster and Application:
+
+we examine how to scale a Kubernetes application. This will include both scaling out the number of nodes in the cluster, as well as increasing the number of service instances/pods running the front end of the application.
+
+    az aks scale -resource-group=rgaks --name=myAKSCluster --node-count 3
+    kubectl get nodes
+    kubectl scale --replicas=5 deployment/azure-vote-front
+    kubectl autoscale deployment azure-vote-front --cpu-percent=50 --min=3 --max=10
+    kubectl get hpa
+
+Update a Running AKS Application:
+
+In this lesson, we modify our application and deploy a new version to the AKS cluster. This includes:
+
+Code modification
+Rebuilding the containers
+Tagging containers with a new version
+Pushing a second version to ACR
+Deploying the new version to AKS
 
