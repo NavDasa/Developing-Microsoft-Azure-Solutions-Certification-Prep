@@ -404,4 +404,12 @@ Manage Container Images Using Azure Container Registry (ACR):
 
 we create an Azure Container Registry and upload our docker containers to the registry and store it within a repository, with the azure-cli.
 
+The below will be helpful to push the docker images from the local linux mechine to the Azure portal Azure container registry through azure cli.
 
+    az login
+    az group create --name rgaks --location westus
+    az acr create --resource-group rgaks --name la70532acr --sku Basic
+    docker tag azure-vote-front la70532acr.azurecr.io/azure-vote-front:v1
+    az acr login --name la70532acr
+    docker push la70532acr.azurecr.io/azure-vote-front
+    az acr repository list --name la70532acr
